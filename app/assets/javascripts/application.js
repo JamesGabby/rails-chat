@@ -23,6 +23,16 @@ scroll_bottom = function() {
   }
 }
 
+$(() => {
+  const textfield = $('#message_body');
+ 
+  textfield.on('keyup', e => {
+    if (e.keyCode === 13) {
+      e.target.value = '';
+    }
+  });
+})
+
 $(document).on('turbolinks:load', function() {
   $('.ui.dropdown').dropdown()
 
