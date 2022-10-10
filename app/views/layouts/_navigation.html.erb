@@ -4,7 +4,6 @@
     <a class="item">
       Messages
     </a>
-    <%= link_to "Logout", logout_path, method: :delete, class: "item" %>
     <div class="right menu">
       <div class="ui dropdown item">
         Account <i class="dropdown icon"></i>
@@ -13,7 +12,7 @@
             <%= link_to "Logout", logout_path, method: :delete, class: "item" %>
           <% else %>
             <%= link_to 'Log in', login_path, class: "item" %>
-            <a class="item">Sign up</a>
+            <%= link_to 'Sign up', signup_path, class: "item" %>
           <% end %>
         </div>
       </div>
