@@ -5,8 +5,13 @@
       Messages
     </a>
     <div class="right menu">
-      <div class="ui dropdown item">
-        Account <i class="dropdown icon"></i>
+      <div class="ui dropdown item"> 
+        <% if logged_in? %>
+          Account (<%= current_user.username %>)
+        <% else %>
+          Account
+        <% end %>
+        <i class="dropdown icon"></i>
         <div class="menu">
           <% if logged_in? %>
             <%= link_to "Logout", logout_path, method: :delete, class: "item" %>
