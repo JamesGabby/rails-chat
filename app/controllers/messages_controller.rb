@@ -3,8 +3,11 @@ class MessagesController < ApplicationController
 
   def create
     message = current_user.messages.build(message_params)
-    if message.save
+    if message.save!
       ActionCable.server.broadcast "chatroom_channel", mod_msg: message_render(message)
+    else
+      flash[:error] = "Something went wrong."
+      redirect_to root_path
     end
   end
 
