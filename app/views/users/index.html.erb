@@ -1,0 +1,12 @@
+<% @users.each do |user| %>
+  <h2 class="ui center aligned large header">
+    <div class="user_container">
+    <%= user.username %> 
+    <div class="center_reveal">
+      <div class="hidden content">
+        <%= link_to '<img src="https://cdn-icons-png.flaticon.com/512/3237/3237472.png">'.html_safe, user_path(user.id), class: "ui small image" %>
+      </div>
+    </div>
+    </div>
+  </h2>
+<% end %>
