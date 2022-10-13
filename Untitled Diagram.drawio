@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T14:51:28.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AvNSi8oZ3ldWb4xF0S7z" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T15:00:46.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U7r8OukEDvY1DWLXLrOI" version="20.4.0" type="github">
   <diagram id="2Uf6_MZAJpSW-4ORq8kl" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,6 +71,9 @@
         </mxCell>
         <mxCell id="bFLXUrSgAlrM9C7CcZIj-52" value="&lt;ul&gt;&lt;li&gt;Message appears in userroom&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="454" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-53" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Generate UserRoom chatroom&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Add new message post route that takes user_id params&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Broadcast message and user_id&#39;s&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Append message to the userroom with given user_id from user with given user_id&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="435" width="196" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
