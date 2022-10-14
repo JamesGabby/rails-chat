@@ -9,7 +9,7 @@ class MessagesController < ApplicationController
     #   ActionCable.server.broadcast "chatroom_channel", mod_msg: message_render(message)
     # els
     if message.save!   
-      ActionCable.server.broadcast "userroom_channel_#{receiver_id}",{ user_message: message_render(message), receiver_id: receiver_id }
+      ActionCable.server.broadcast "userroom_channel", { user_message: message_render(message), receiver_id: receiver_id }
     else
       flash[:error] = "Something went wrong."
       redirect_to root_path
