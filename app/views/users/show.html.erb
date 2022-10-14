@@ -1,3 +1,22 @@
 <h2 class="ui center aligned large header">
   <%= @user.username %><br />
 </h2>
+<% receiver_id = @user.id %>
+<div class="ui fluid raised card chatbox">
+  <div class="content" id="messages">
+    <div class="ui feed" id="message-container-<%= @user.id %>">
+      <%= render @messages %>
+    </div>
+  </div>
+  <div class="extra content">
+    <%= form_for(@message, html: { class: "ui reply form", role: "form" }, url: usermessage_path(receiver_id: @user.id), remote: true) do |f| %>
+      <div class="field">
+        <div class="ui fluid icon input">
+          <%= f.text_field :body %>
+          <% @user %>
+          <%= f.button '<i class="bordered inverted edit icon"></i>'.html_safe %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
