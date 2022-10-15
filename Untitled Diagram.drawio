@@ -1,79 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T15:00:46.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U7r8OukEDvY1DWLXLrOI" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T14:06:55.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6xpVavDtfxWGn24NR9pS" version="20.4.0" type="github">
   <diagram id="2Uf6_MZAJpSW-4ORq8kl" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-34" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-34" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="74" y="150" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-35" value="Controller" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-35" value="Controller" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="334" y="340" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bFLXUrSgAlrM9C7CcZIj-37" target="bFLXUrSgAlrM9C7CcZIj-48">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bFLXUrSgAlrM9C7CcZIj-37" target="bFLXUrSgAlrM9C7CcZIj-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-37" value="View" style="triangle;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-37" value="View" style="triangle;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="614" y="140" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-38" value="&lt;b&gt;message.rb&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-38" value="&lt;b&gt;message.rb&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="124" y="160" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-39" value="&lt;b&gt;messages_controller.rb&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-39" value="&lt;b&gt;messages_controller.rb&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="384" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-40" value="&lt;b&gt;chatroom.coffee&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-40" value="&lt;b&gt;chatroom.coffee&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="649" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-41" value="Partial" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-41" value="Partial" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="244" y="465" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="484" y="370" as="sourcePoint" />
             <mxPoint x="614" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bFLXUrSgAlrM9C7CcZIj-35" target="bFLXUrSgAlrM9C7CcZIj-34">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="bFLXUrSgAlrM9C7CcZIj-35" target="bFLXUrSgAlrM9C7CcZIj-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="344" y="350" as="sourcePoint" />
             <mxPoint x="284" y="287.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-44" value="&lt;ul&gt;&lt;li&gt;User sends a message&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-44" value="&lt;ul&gt;&lt;li&gt;User posts a message with receiver_id&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="304" y="240" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-45" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Controller receives message and user_id&#39;s (sender &amp;amp; receiver)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Message and user_id&#39;s are broadcasted to channel with partial&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-45" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Controller receives message and user_id&#39;s (sender &amp;amp; receiver)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Message is broadcasted to user_id channel with partial&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="334" y="500" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-46" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Channel receives message and users&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Message is appended to UserRoom of correct user&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-46" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Channel receives message and users&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Message is appended to UserRoom of correct user&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="604" y="270" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.565;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bFLXUrSgAlrM9C7CcZIj-48" target="bFLXUrSgAlrM9C7CcZIj-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="424" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-48" value="UserRoom" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-48" value="UserRoom" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="364" y="165" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="304" y="485" as="sourcePoint" />
             <mxPoint x="354" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-50" value="&lt;b&gt;show.html.erb&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-50" value="&lt;b&gt;show.html.erb&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="165" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-51" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;UserRoom Flow&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-51" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;UserRoom Flow&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="344" y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-52" value="&lt;ul&gt;&lt;li&gt;Message appears in userroom&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-52" value="&lt;ul&gt;&lt;li&gt;Message appears in userroom&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="454" y="150" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bFLXUrSgAlrM9C7CcZIj-53" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Generate UserRoom chatroom&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Add new message post route that takes user_id params&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Broadcast message and user_id&#39;s&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Append message to the userroom with given user_id from user with given user_id&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bFLXUrSgAlrM9C7CcZIj-53" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Generate UserRoom chatroom&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Add new message post route that takes user_id params&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Broadcast message to&amp;nbsp; user_id channel&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Append message to the userroom with given user_id from user with given user_id&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="435" width="196" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yShq968ZHr3YcbRWprVD-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bFLXUrSgAlrM9C7CcZIj-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="340" as="sourcePoint" />
+            <mxPoint x="474" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yShq968ZHr3YcbRWprVD-2" value="&lt;ul&gt;&lt;li&gt;Append message to correct user room&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
