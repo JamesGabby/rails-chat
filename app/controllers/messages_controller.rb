@@ -3,13 +3,12 @@ class MessagesController < ApplicationController
 
   def create
     message = current_user.messages.build(message_params)
-    user_id = message.user_id
     receiver_id = params[:receiver_id]
-    # if message.save!    
-    #   ActionCable.server.broadcast "chatroom_channel", mod_msg: message_render(message)
-    # els
-    if message.save!   
+
+    if receiver_id && message.save!    
       ActionCable.server.broadcast "userroom_channel", { user_message: message_render(message), receiver_id: receiver_id }
+    elsif receiver_id == nil && message.save! 
+      ActionCable.server.broadcast "chatroom_channel", chatroom_message: message_render(message)
     else
       flash[:error] = "Something went wrong."
       redirect_to root_path
