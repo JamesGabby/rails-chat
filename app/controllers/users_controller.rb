@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @message = Message.new
-    @messages = Message.custom_display
+    @messages = Message.where(receiver_id: [@user.id, current_user.id], user_id: [@user.id, current_user.id])
   end
 
   private
