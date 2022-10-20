@@ -9,5 +9,4 @@ App.userroom = App.cable.subscriptions.create "UserroomChannel",
     # Called when there's incoming data on the websocket for this channel
     $("#message-container-#{data.receiver_id}").append data.user_message
     $("#message-container-#{data.sender_id}").append data.user_message
-
     scroll_bottom()
